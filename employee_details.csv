@@ -1,0 +1,21 @@
+EmployeeID,Name,Department,DateOfJoining,Email
+101,John Doe,Engineering,2022-01-15,john.doe@example.com
+102,Jane Smith,Marketing,2021-06-01,jane.smith@example.com
+103,Emily Davis,Sales,2021-11-20,emily.davis@example
+104,Michael Brown,Engineering,2020-08-10,michael.brown@example.com
+105,Chris Wilson,Sales,2019-04-25,chris.wilson@example.com
+106,Patricia Garcia,Marketing,2021-06-01,patricia.garcia@example.com
+107,Robert Johnson,Engineering,invalid_date,robert.johnson@example.com
+108,Susan Lee,HR,2023-02-01,susan.lee@example.com
+109,Daniel Martinez,Sales,2018-12-15,daniel.martinez@example.com
+110,Linda Thomas,Engineering,2022-05-21,linda.thomas@example
+111,Kevin White,Marketing,2019-09-10,kevin.white@example.com
+112,Karen Taylor,HR,2021-03-01,karen.taylor@example.com
+113,James Moore,Sales,2017-11-11,james.moore@example.com
+114,Barbara King,Engineering,2019-05-15,barbara.king@example.com
+115,Matthew Harris,Marketing,2020-07-20,matthew.harris@example.com
+116,Jennifer Hall,HR,2023-01-01,jennifer.hall@example
+117,Charles Clark,Engineering,invalid_date,charles.clark@example.com
+118,Steven Walker,Sales,2018-03-10,steven.walker@example.com
+119,Laura Allen,Marketing,2020-06-10,laura.allen@example.com
+120,Sarah Young,HR,2021-10-15,sarah.young@example.com

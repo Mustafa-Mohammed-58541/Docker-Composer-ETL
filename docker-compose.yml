@@ -1,0 +1,30 @@
+
+services:
+  db:
+    image: postgres:13
+    container_name: postgres-container
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: employee_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    container_name: python-app
+    environment:
+      DB_HOST: db
+      DB_NAME: employee_db
+      DB_USER: postgres
+      DB_PASSWORD: mysecretpassword
+    depends_on:
+      - db
+    volumes:
+      - .:/app
+    command: ["python", "etl.py"]
+
+volumes:
+  postgres_data:
