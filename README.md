@@ -7,6 +7,9 @@ docker exec -it postgres-container psql -U postgres -d employee_db  '''
 select * from employees;'''
 
 
+## Project Structure
+
+```plaintext
 /Docker-Composer-ETL
 ├── docker-compose.yml      # Docker Compose configuration for PostgreSQL and Python containers
 ├── etl.py                  # Python script that performs ETL operations (extract, transform, load)
